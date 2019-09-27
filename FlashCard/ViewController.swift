@@ -19,6 +19,8 @@ class ViewController: UIViewController
         super.viewDidLoad()
 
 welcomeLabel.text = "Welcome to our study app \n Please select a subject"
+        
+        view.backgroundColor = .red
 
 
     }
