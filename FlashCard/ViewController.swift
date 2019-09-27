@@ -12,7 +12,7 @@ class ViewController: UIViewController
 
     @IBOutlet weak var welcomeLabel: UILabel!
     
-    
+    // Bonjour
     
     override func viewDidLoad()
     {
