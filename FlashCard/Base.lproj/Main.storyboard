@@ -26,20 +26,27 @@
                                     <segue destination="UOG-W5-81c" kind="show" id="WpX-H4-TUO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdb-1j-Gt4">
-                                <rect key="frame" x="162" y="306" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Biology"/>
-                                <connections>
-                                    <segue destination="XyQ-ep-GQj" kind="show" id="Xel-wF-jI9"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8q-TN-i80">
-                                <rect key="frame" x="166" y="485" width="43" height="30"/>
+                                <rect key="frame" x="166" y="540" width="43" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Vocab"/>
                                 <connections>
                                     <segue destination="hib-bq-iAx" kind="show" id="eoi-yM-3zE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xF1-C4-Cva">
+                                <rect key="frame" x="16" y="74" width="343" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdb-1j-Gt4">
+                                <rect key="frame" x="162" y="343" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Biology"/>
+                                <connections>
+                                    <segue destination="XyQ-ep-GQj" kind="show" id="Xel-wF-jI9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,6 +54,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="LSz-9c-8hy"/>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="xF1-C4-Cva" id="9yy-Mx-53F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8W1-hR-4rb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2209" y="-597"/>
+            <point key="canvasLocation" x="2242" y="-600"/>
         </scene>
         <!--VocabVC-->
         <scene sceneID="dQT-lY-A7C">
@@ -95,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aMQ-lo-SDI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2233" y="784"/>
+            <point key="canvasLocation" x="2242" y="871"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7b6-fH-VIw">
